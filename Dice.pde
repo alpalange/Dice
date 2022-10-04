@@ -5,10 +5,10 @@ void setup()
 {
   noLoop();
   size(450,450);
+  background(180,210,190);
 }
 void draw()
 {
-  background(180,210,190);
   for(int yspacing = 22; yspacing < 450; yspacing +=45){
     for(int xspacing = 22; xspacing < 450; xspacing +=45){
       one = new Die(xspacing,yspacing);
