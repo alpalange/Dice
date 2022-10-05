@@ -88,8 +88,8 @@ class Die //models one single dice cube
   {
     noStroke();
     fill(200,230,200);
-    square(dX-21, dY-21, 40);
+    rect(dX-21, dY-21, 40, 40);
     fill(145,185,140);
-    square(dX-19,dY-19,40);
+    rect(dX-19,dY-19,40, 40);
   }
 }
